@@ -2,7 +2,9 @@ package hello.storage;
 
 public class StorageFileNotFoundException extends StorageException {
 
-    public StorageFileNotFoundException(String message) {
+	private static final long serialVersionUID = -8617779269650093697L;
+
+	public StorageFileNotFoundException(String message) {
         super(message);
     }
 
